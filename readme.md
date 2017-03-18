@@ -1,5 +1,15 @@
 # Modular Laravel starter with Bootstrap sass and webpack
 
-Laravel 5.3
-Webpack
-Bootstrap sass (.sass extention)
+
+<ul>
+    <li> Laravel 5.3 </li>
+    <li> Webpack </li>
+    <li> Bootstrap sass (.sass extention) </li>
+    <li> Modules <li>
+    <ul>
+        <li> Facebook login </li>
+    </ul>
+</ul>
+
+
+    
