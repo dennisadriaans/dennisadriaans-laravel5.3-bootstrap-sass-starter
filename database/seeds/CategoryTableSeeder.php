@@ -11,8 +11,31 @@ class CategoryTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('categories')->insert([
-            'name' => 'Main'
-        ]);
+        DB::table('categories')->insert(
+            [
+                'title' => 'Down the rabbit hole',
+                'type' => 'events'
+            ],
+            [
+                'title' => '4 year anniversary',
+                'type' => 'events'
+            ],
+            [
+                'title' => 'Ludivico den audi',
+                'type' => 'events'
+            ]
+        );
+        DB::table('categories')->insert(
+            [
+                'title' => '4 year anniversary',
+                'type' => 'events'
+            ]
+        );
+        DB::table('categories')->insert(
+            [
+                'title' => 'Ludivico den audi',
+                'type' => 'events'
+            ]
+        );
     }
 }
