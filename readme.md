@@ -12,7 +12,7 @@
 </ul>
 
 
-For Faceboom modules you have to add some values in your .env: 
+For Facebook modules you have to add some values in your .env: 
 <br/><br/>
 FACEBOOK_APP_ID = ** 
 <br/>
