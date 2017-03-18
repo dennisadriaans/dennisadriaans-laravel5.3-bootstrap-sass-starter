@@ -1,0 +1,8 @@
+.env/
+.idea/
+.idea/workspace.xml
+.env
+vendor/
+node_modules/
+public/node_modules/
+public/index.js
