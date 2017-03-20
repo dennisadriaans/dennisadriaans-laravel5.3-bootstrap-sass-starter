@@ -17,7 +17,8 @@
         <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600" rel="stylesheet">
 
 
-        <script src="/index.js"></script>
+
+        <script src="https://unpkg.com/vue"></script>
 
     </head>
     <body>
@@ -26,6 +27,11 @@
         @yield('content')
     </div>
 
+    @if (Session::has('message'))
+        <div class="alert alert-info">{{ Session::get('message') }}</div>
+    @endif
+
+    <script src="/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="http://localhost:35729/livereload.js"></script>
     </body>
