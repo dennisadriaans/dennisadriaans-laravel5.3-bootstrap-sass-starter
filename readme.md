@@ -1,10 +1,12 @@
-# Modular Laravel starter with Bootstrap and webpack
+# Modular Laravel starter with Bootstrap, webpack2, vue2, vuex
 
 
 <ul>
     <li> Laravel 5.3 </li>
     <li> Webpack </li>
     <li> Bootstrap (.sass extention) </li>
+    <li> Vue 2.0 </li>
+    <li> Vuex </li>
     <li> Modules <li>
     <ul>
         <li> Facebook login </li>

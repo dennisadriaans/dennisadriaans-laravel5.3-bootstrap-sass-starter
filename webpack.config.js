@@ -18,10 +18,6 @@ module.exports = {
                 loader: 'vue-loader',
             },
             {
-                test: /\.woff2?$|\.ttf$|\.eot$|\.svg$/,
-                loader: 'file-loader'
-            },
-            {
                 test: /\.(scss|sass)$/,
                 loaders: ['style-loader', 'css-loader', 'sass-loader']
             },
