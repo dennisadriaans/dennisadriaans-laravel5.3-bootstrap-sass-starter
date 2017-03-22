@@ -14,6 +14,8 @@
 345
 @endif
 
+<app></app> 123
+
 
 @section('content')
     <h1>Dennis Laravel + Bootstrap starter</h1>

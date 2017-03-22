@@ -8,11 +8,15 @@ module.exports = {
     },
     output: {
         path: path.join('public'),
-        filename: '[name].js',
+        filename: 'build.js',
         publicPath: '/public/'
     },
     module: {
         rules: [
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader',
+            },
             {
                 test: /\.woff2?$|\.ttf$|\.eot$|\.svg$/,
                 loader: 'file-loader'
@@ -26,7 +30,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.webpack.js', '.web.js', '.ts', '.js']
+        extensions: ['.webpack.js', '.web.js', '.ts', '.js', '.vue']
     },
     plugins: [
         new LiveReloadPlugin()
